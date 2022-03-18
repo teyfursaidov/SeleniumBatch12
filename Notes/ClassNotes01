@@ -1,0 +1,68 @@
+Selenium Class1
+
+What is software testing?
+    Identifying the correctness and quality of an application.
+
+How many ways can we test?
+    1. Manual.
+    2. Automation.
+
+when do we go for automation?
+    1. After manual testing is passed.
+    2. When environment is stable.
+    3. Analyze our test suite and choose our automation toll.
+
+What automation toll do we know about?
+    Selenium, TestNG, Cucumber, Katalon Studio, UFT/QTP.
+
+Level of testing?
+    1. Unit testing ->perform by devs.
+    2. Integration.
+    3. Acceptance Testing -> perform by clients.
+    4. System testing.
+
+Types of testing?
+    1. Functional.
+    2. Non-Functional testing.
+        Performance Testing: behavior/response time/ system stability.
+         Security Testing: hackable/ finds vulnerability of the software.
+
+What is Selenium?
+    Automation testing toll, a set of toll that helps us automate web applications mainly
+        used to perform functional testing.
+
+Selenium Components:
+    1. Selenium IDE -> integrated development environment.
+    2. Selenium Grid -> Firefox plugin.
+    3. Selenium WebDriver.
+    4. Selenium RC -> Remote control.
+
+What is selenium web-driver?
+    Open source automation tool which allows us to perform actions on a web applications.
+    WebDriver is an Interface.
+
+
+Advantages of Selenium WebDriver:
+    1. Open source.
+    2. Works with most browsers and supports cross browsing testing.
+    3. Works with different programming languages(Java, javaScript, Ruby, Python).
+    4. OS independent. Works with different operating systems(Windows, MacOS, Linux).
+
+Disadvantages of Selenium WebDriver:
+    1. Unable to test desktop applications.
+    2. No technical support.
+    3. No built in reports.
+    4. Unable to test captcha, images or videos.
+
+get(); vs navigate();
+    1. Navigate can go back, forward and refresh.
+    2. get(); will wait for the page to fully load. navigate(); will not.
+    3. get(); will not keep history of browser, navigate(); keeps history of browser.
+
+close(); vs quit();
+    1. close(); will close current tab.
+    2. quit(); will quit the browser.
+
+fullscreen(); vs maximize();
+    1. maximize(); will maximize the browser and you will still be able to see control panel(<-, ->, bookmarks).
+    2. fullscreen(); will maximize the whole application without controls(control panel of browser).
