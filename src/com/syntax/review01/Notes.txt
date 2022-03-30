@@ -1,0 +1,96 @@
+Selenium review class 01
+
+    1. driver.get()
+    2. driver.navigate.to()
+    3. driver.quit()
+    4. driver.close()
+    5. maximize and fullscreen
+
+HTML:
+    Locators:
+
+Xpath:
+
+Absolute:
+
+Relative:
+    //input[@id="userName"]
+
+Start-with:
+we can use start with
+in the xpath
+//tagname[start-with(@attribute='starting of the attribute value')]
+//input[start-with(@id='user')]
+
+<input id='imageno.1'/>
+//input[start-with(@id, 'imageno')]
+
+
+
+Contains:
+  //tagname[contains(@id, 'some portion of value')]
+
+Example:
+    <input id='imageno.1'/>
+    //input[contains(@id, 'mageno')]
+
+
+By text:
+    //tagName[text()='abcd']
+
+Example:
+    //button[text()='Submit']
+
+CSS Selector (Cascading style sheet)
+    It is another way of locating elements on the web page
+tagname[attribute='attribute value']
+
+id=#
+<input @id='rotwiller'/>
+input#rotwiller
+
+class = '.'
+<input @id='rotwiller' @class='bigdog'/>
+input.bigdog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hey dom
+bring us the tag "input"        -> //input
+who has an attribute id         -> [@id]
+and its value is userName       -> [@id='userName']
+
+
+<html>
+<body>
+            <h1>hello<h1>
+            <h1>
+                <p1>well though<p1>
+                    <h1>
+            <h1>hi<h1>
+            <h1>hiwert<h1>
+            <h1>hiwerty<h1>
+</body>
+</html>
+
+/html/body/h1[2]/p1
+
+/html/body/h1[]
+
+/html/body/ht
+
+html/body/div[2]/div/div/div[2]/div[2]/div[2]/form/div[2]/div[2]/input

@@ -1,0 +1,27 @@
+Selenium CLass 3
+
+Why do we need Xpath and Css Selector?
+    1. Developers will not provide all the locators in HTML
+    2. By using xpath and css we can identify elements with any given attributes
+
+What is Xpath?
+    1. Xpath is like a query language which helps us to identify elements
+        uniquely on the web page.
+
+Types of Xpath:
+    1. Absolute Xpath -> starts from the starting node in html
+                        it always starts with single slash (/)
+                        e.g. /html/body/div/div/div
+
+    2. Relative Xpath -> starts from any node in the html
+                         it always starts with double slash (//)
+
+Syntax for relative Xpath:
+    //tagname[@attributes = 'attribute value']
+
+Example:
+    //input[@id = 'email']
+
+Identifying elements by its text.
+    //tagname[text() = 'text value']
+
