@@ -49,6 +49,8 @@ public class ParaBankTest {
         WebElement loginButton=driver.findElement(By.className("button"));
         loginButton.click();
 
+
+
         Thread.sleep(6000);
         driver.quit();
 
